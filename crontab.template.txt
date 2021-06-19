@@ -1,0 +1,4 @@
+*/10 0-6 * * * ${job_working_directory}/disable.sh >> ${job_working_directory}/cron.log 2>&1
+*/10 6-7 * * * ${job_working_directory}/enable.sh >> ${job_working_directory}/cron.log 2>&1
+
+
